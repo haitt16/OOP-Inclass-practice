@@ -2,8 +2,6 @@
 // import QuanLy;
 
 class CanBoQuanLy extends CanBoCoHuu implements QuanLy{
-    // Attributes
-    private double hoaHong;
 
     // Constructor
     public CanBoQuanLy(String tenNhanVien, double luongCoBan, double heSoLuong){

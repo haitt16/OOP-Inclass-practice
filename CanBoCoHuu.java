@@ -17,11 +17,6 @@ class CanBoCoHuu extends NhanVien{
     // Setter
     public void setLuongCoBan(double basePay){ luongCoBan = basePay; }
     public void setHeSoLuong(double coef){ heSoLuong = coef; }
-    public void setCanBoCoHuu(String name, double basePay, double coef){
-        setName(name);
-        setLuongCoBan(basePay);
-        setHeSoLuong(coef);
-    }
 
     // Getter
     public double getLuongCoBan(){ return luongCoBan;}

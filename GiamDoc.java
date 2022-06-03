@@ -15,10 +15,6 @@ class GiamDoc extends CanBoCoHuu implements QuanLy{
     public void setPhuCap(double pc){
         phuCap = pc;
     }
-    public void setGiamDoc(String name, double basePay, double coef, double pc){
-        setCanBoCoHuu(name, basePay, coef);
-        setPhuCap(pc);
-    }
 
     // Getter
     public double getPhuCap(){ return phuCap; }
